@@ -13,6 +13,6 @@
 *.box
 
 # Exclude roles as they should be already in Git
-ansible/roles/
+ansible/roles/*
 
 # End of https://www.gitignore.io/api/vagrant
