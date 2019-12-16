@@ -1,0 +1,7 @@
+ansible_user: "vagrant"
+ansible_password: "vagrant"
+ansible_connection: winrm
+ansible_winrm_server_cert_validation: ignore
+ansible_winrm_transport: basic
+
+# Ansible will encrypt basic winrm traffic on message level by default

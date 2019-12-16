@@ -1,0 +1,18 @@
+# Created by https://www.gitignore.io/api/vagrant
+# Edit at https://www.gitignore.io/?templates=vagrant
+
+### Vagrant ###
+# Vagrant files
+.vagrant/
+*/.vagrant/
+
+# Log files (if you are creating logs in debug mode, uncomment this)
+*.log
+
+### Vagrant Patch ###
+*.box
+
+# Exclude roles as they should be already in Git
+pluralsight/roles/
+
+# End of https://www.gitignore.io/api/vagrant

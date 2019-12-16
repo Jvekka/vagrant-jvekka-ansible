@@ -1,0 +1,6 @@
+---
+  - hosts: windows
+    roles:
+      - custom_fact
+#      - common
+#      - role-bginfo
