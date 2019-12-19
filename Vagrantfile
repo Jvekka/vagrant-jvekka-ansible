@@ -39,7 +39,7 @@ Vagrant.configure("2") do |config|
     ctl.vm.provision "shell", inline: "sudo apt-get install python-pip -y"
     ctl.vm.provision "shell", inline: "sudo pip install pywinrm setuptools"
     # https://docs.ansible.com/ansible/latest/user_guide/windows_winrm.html
-    ctl.vm.synced_folder "pluralsight", "/home/vagrant/pluralsight",
+    ctl.vm.synced_folder "ansible", "/home/vagrant/ansible",
       owner: "vagrant",
       mount_options: ["dmode=775,fmode=600"]
     # sudo nano /etc/default/grub

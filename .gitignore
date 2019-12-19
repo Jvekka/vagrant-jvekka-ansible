@@ -15,4 +15,7 @@
 # Exclude roles as they should be already in Git
 ansible/roles/*
 
+# Exlucde random testing files
+ansible/random_files/*
+
 # End of https://www.gitignore.io/api/vagrant

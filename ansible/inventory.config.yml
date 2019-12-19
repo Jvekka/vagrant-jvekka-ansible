@@ -1,0 +1,11 @@
+---
+# inventory.config file in YAML format
+plugin: xmap
+strict: False
+address: 192.168.56.0-10
+ports: True
+ipv4: True
+ipv6: False
+custom: 22,135,139,445,3389,5985,5986,49155
+privileged: True
+OS: True
